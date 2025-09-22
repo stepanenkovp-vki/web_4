@@ -7,7 +7,7 @@ interface StudentsHookInterface {
   students: StudentInterface[];
 }
 
-const useGroups = (): StudentsHookInterface => {
+const useStudents = (): StudentsHookInterface => {
   // const queryClient = useQueryClient();
 
   const { data } = useQuery({
@@ -21,4 +21,4 @@ const useGroups = (): StudentsHookInterface => {
   };
 };
 
-export default ;
+export default useStudents;
